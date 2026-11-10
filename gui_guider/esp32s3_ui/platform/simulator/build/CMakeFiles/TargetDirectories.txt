@@ -1,0 +1,17 @@
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/copy_sdl2_dll.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/generated.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/simulator.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/run.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/edit_cache.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/rebuild_cache.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/list_install_components.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/install.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/install/local.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/CMakeFiles/install/strip.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/lvgl/CMakeFiles/lvgl.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/lvgl/CMakeFiles/edit_cache.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/lvgl/CMakeFiles/rebuild_cache.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/lvgl/CMakeFiles/list_install_components.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/lvgl/CMakeFiles/install.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/lvgl/CMakeFiles/install/local.dir
+E:/microchip/ESP32/IOT_ChenXin/11_LVGL_ide/gui_guider/esp32s3_ui/platform/simulator/build/lvgl/CMakeFiles/install/strip.dir

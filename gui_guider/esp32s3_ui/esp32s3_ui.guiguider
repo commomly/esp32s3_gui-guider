@@ -1,0 +1,892 @@
+{
+  "projectId": "project-MWA8UG30P2HN",
+  "projectName": "esp32s3_ui",
+  "projectPath": "E:\\microchip\\ESP32\\IOT_ChenXin\\11_LVGL_ide\\gui_guider\\esp32s3_ui",
+  "version": "2.0.1",
+  "toolVendor": "NXP Semiconductors",
+  "createDate": "2026-11-10",
+  "createVersion": "2.0.1",
+  "lastModified": "2026-11-10T05:40:14.307Z",
+  "description": "",
+  "metadata": {
+    "board": {
+      "id": 20,
+      "name": "Simulator"
+    },
+    "application": {
+      "id": 3,
+      "name": "BlankTemplate"
+    }
+  },
+  "projectSettings": {
+    "lvglVersion": "9.4.0",
+    "width": 320,
+    "height": 240,
+    "targetConfig": {
+      "targetRun": false,
+      "targetBuild": false,
+      "toolchainAlias": "simulator",
+      "toolchain": "x86_64-w64-mingw32",
+      "display": "",
+      "colorDepth": 16,
+      "display_name": "customer"
+    },
+    "imageConfig": {
+      "storage_type": "CArray",
+      "sd_path": "/sdcard/images/",
+      "flash_address": "0xFFFFFFFFU",
+      "color_format": "RGB565A8",
+      "aligned": 0,
+      "origin_size": 1,
+      "compress": "",
+      "dither": ""
+    },
+    "fontConfig": {
+      "default_family": "montserratMedium.ttf",
+      "default_size": 14,
+      "enable_base_chars": 1,
+      "base_chars": "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    }
+  },
+  "lvConf": {
+    "LV_MEM_SIZE": 320
+  },
+  "UI": {
+    "screen_list": [
+      {
+        "type": "layer_sys",
+        "name": "layer_sys",
+        "id": "layer_sys",
+        "children": []
+      },
+      {
+        "type": "layer_top",
+        "name": "layer_top",
+        "id": "layer_top",
+        "children": []
+      },
+      {
+        "type": "layer_bottom",
+        "name": "layer_bottom",
+        "id": "layer_bottom",
+        "children": []
+      },
+      {
+        "type": "screen",
+        "id": "screen",
+        "name": "home",
+        "default_screen": true,
+        "style": {
+          "LV_PART_MAIN|LV_STATE_DEFAULT": {
+            "part": "LV_PART_MAIN",
+            "state": "LV_STATE_DEFAULT",
+            "bg_color": "#000000"
+          }
+        },
+        "children": [
+          {
+            "id": "MWA8WAJSRTZY",
+            "type": "label",
+            "name": "label_temperature_3",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 206,
+            "x_unit": "px",
+            "y": 203,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "25-29°C",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJS0RYA",
+            "type": "label",
+            "name": "label_temperature_2",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 115,
+            "x_unit": "px",
+            "y": 203,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "27-31°C",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJSJ381",
+            "type": "label",
+            "name": "label_temperature_1",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 26,
+            "x_unit": "px",
+            "y": 203,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "28-31°C",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJS17J5",
+            "type": "image",
+            "name": "wifi",
+            "width": 50,
+            "width_unit": "px",
+            "height": 50,
+            "height_unit": "px",
+            "x": 11,
+            "x_unit": "px",
+            "y": 0,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT"
+              }
+            },
+            "src": "resources/image/wifi.png",
+            "src_config": {
+              "origin_size": 1
+            },
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJS6VUF",
+            "type": "image",
+            "name": "yun",
+            "width": 65,
+            "width_unit": "px",
+            "height": 50,
+            "height_unit": "px",
+            "x": 206,
+            "x_unit": "px",
+            "y": 144,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT"
+              }
+            },
+            "src": "resources/image/yun.png",
+            "src_config": {
+              "origin_size": 1
+            },
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJSRHWU",
+            "type": "image",
+            "name": "rin",
+            "width": 68,
+            "width_unit": "px",
+            "height": 59,
+            "height_unit": "px",
+            "x": 123,
+            "x_unit": "px",
+            "y": 144,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT"
+              }
+            },
+            "src": "resources/image/yu.png",
+            "src_config": {
+              "origin_size": 1
+            },
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJSQIS7",
+            "type": "image",
+            "name": "sun",
+            "width": 50,
+            "width_unit": "px",
+            "height": 50,
+            "height_unit": "px",
+            "x": 36,
+            "x_unit": "px",
+            "y": 149,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT"
+              }
+            },
+            "src": "resources/image/qing.png",
+            "src_config": {
+              "origin_size": 1
+            },
+            "lock": false,
+            "children": []
+          },
+          {
+            "id": "MWA8WAJSE0BG",
+            "type": "label",
+            "name": "label_after_tomorrow",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 220,
+            "x_unit": "px",
+            "y": 120,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "后日",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJS5GE7",
+            "type": "label",
+            "name": "label_tomorrow",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 131,
+            "x_unit": "px",
+            "y": 120,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "明日",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJTS0L9",
+            "type": "label",
+            "name": "label_today",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 42,
+            "x_unit": "px",
+            "y": 120,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "今日",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJTGVXJ",
+            "type": "label",
+            "name": "label_week",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 157,
+            "x_unit": "px",
+            "y": 77,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "星期一",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJT40JA",
+            "type": "label",
+            "name": "label_day",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 157,
+            "x_unit": "px",
+            "y": 56,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "2026年11月9日",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA8WAJTKONW",
+            "type": "label",
+            "name": "label_clock",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 36,
+            "x_unit": "px",
+            "y": 74,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                "text_size": 20
+              }
+            },
+            "text": "11:25:50",
+            "lock": false,
+            "children": []
+          },
+          {
+            "id": "MWA8WAJTZSZS",
+            "type": "image",
+            "name": "line",
+            "width": 270,
+            "width_unit": "px",
+            "height": 23,
+            "height_unit": "px",
+            "x": 26,
+            "x_unit": "px",
+            "y": 97,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT"
+              }
+            },
+            "src": "resources/image/line.png",
+            "src_config": {
+              "origin_size": 1
+            },
+            "lock": false,
+            "children": []
+          },
+          {
+            "id": "MWA8WAJTT20P",
+            "type": "label",
+            "name": "label_city",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 265,
+            "x_unit": "px",
+            "y": 14,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_size": 16,
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf"
+              }
+            },
+            "text": "未知",
+            "lock": false,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "screen_1zfotm2",
+        "name": "monitor",
+        "type": "screen",
+        "style": {
+          "LV_PART_MAIN|LV_STATE_DEFAULT": {
+            "part": "LV_PART_MAIN",
+            "state": "LV_STATE_DEFAULT",
+            "bg_color": "#000000"
+          }
+        },
+        "children": [
+          {
+            "id": "MWA94HU8YJOT",
+            "type": "label",
+            "name": "label_cpu_temperature_copy_copy",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 128,
+            "x_unit": "px",
+            "y": 200,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                "text_size": 15
+              }
+            },
+            "text": "未连接",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA94HU8K6NC",
+            "type": "button",
+            "name": "button_connect_copy",
+            "width": 64,
+            "width_unit": "px",
+            "height": 23,
+            "height_unit": "px",
+            "x": 234,
+            "x_unit": "px",
+            "y": 162,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT"
+              }
+            },
+            "children": [
+              {
+                "id": "MWA94HU87BGR",
+                "type": "label",
+                "name": "label_connect",
+                "width": 0,
+                "width_unit": "content",
+                "height": 0,
+                "height_unit": "content",
+                "x": 0,
+                "x_unit": "px",
+                "y": 0,
+                "y_unit": "px",
+                "align": "LV_ALIGN_CENTER",
+                "style": {
+                  "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                    "part": "LV_PART_MAIN",
+                    "state": "LV_STATE_DEFAULT",
+                    "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                    "text_size": 14
+                  }
+                },
+                "text": "连接",
+                "lock": false,
+                "children": []
+              }
+            ],
+            "lock": false
+          },
+          {
+            "id": "MWA94HU8PKA0",
+            "type": "textarea",
+            "name": "ta_ip_copy",
+            "width": 138,
+            "width_unit": "px",
+            "height": 0,
+            "height_unit": "content",
+            "x": 80,
+            "x_unit": "px",
+            "y": 158,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                "text_size": 5
+              }
+            },
+            "one_line": true,
+            "lock": false,
+            "children": []
+          },
+          {
+            "id": "MWA94HU8KMLQ",
+            "type": "label",
+            "name": "label_master_copy",
+            "width": 0,
+            "width_unit": "content",
+            "height": 0,
+            "height_unit": "content",
+            "x": 19,
+            "x_unit": "px",
+            "y": 164,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "text_color": "#ffffff",
+                "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                "text_size": 16
+              }
+            },
+            "text": "主机：",
+            "children": [],
+            "lock": false
+          },
+          {
+            "id": "MWA94HU8EQUU",
+            "type": "container",
+            "name": "container_mem_copy",
+            "width": 150,
+            "width_unit": "px",
+            "height": 130,
+            "height_unit": "px",
+            "x": 165,
+            "x_unit": "px",
+            "y": 10,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "bg_color": "#63b5f7",
+                "bg_opa": 100,
+                "border_color": "#63b5f7",
+                "border_opa": 255,
+                "border_width": 2,
+                "radius": 0
+              }
+            },
+            "children": [
+              {
+                "id": "MWA94HU81GF4",
+                "type": "label",
+                "name": "label_mem_can_use",
+                "width": 0,
+                "width_unit": "content",
+                "height": 0,
+                "height_unit": "content",
+                "x": -14,
+                "x_unit": "px",
+                "y": 75,
+                "y_unit": "px",
+                "align": "LV_ALIGN_TOP_LEFT",
+                "style": {
+                  "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                    "part": "LV_PART_MAIN",
+                    "state": "LV_STATE_DEFAULT",
+                    "text_color": "#ffffff",
+                    "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                    "text_size": 16
+                  }
+                },
+                "text": "可用： 2450MB",
+                "children": [],
+                "lock": false
+              },
+              {
+                "id": "MWA94HU8WV9T",
+                "type": "label",
+                "name": "label_mem_use",
+                "width": 0,
+                "width_unit": "content",
+                "height": 0,
+                "height_unit": "content",
+                "x": -13,
+                "x_unit": "px",
+                "y": 40,
+                "y_unit": "px",
+                "align": "LV_ALIGN_TOP_LEFT",
+                "style": {
+                  "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                    "part": "LV_PART_MAIN",
+                    "state": "LV_STATE_DEFAULT",
+                    "text_color": "#ffffff",
+                    "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                    "text_size": 16
+                  }
+                },
+                "text": "使用率：  80%",
+                "children": [],
+                "lock": false
+              },
+              {
+                "id": "MWA94HU83YVI",
+                "type": "label",
+                "name": "label_mem",
+                "width": 0,
+                "width_unit": "content",
+                "height": 0,
+                "height_unit": "content",
+                "x": -13,
+                "x_unit": "px",
+                "y": -18,
+                "y_unit": "px",
+                "align": "LV_ALIGN_TOP_LEFT",
+                "style": {
+                  "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                    "part": "LV_PART_MAIN",
+                    "state": "LV_STATE_DEFAULT",
+                    "text_color": "#ffffff",
+                    "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                    "text_size": 30
+                  }
+                },
+                "text": "内存",
+                "children": [],
+                "lock": false
+              }
+            ],
+            "lock": false
+          },
+          {
+            "id": "MWA94HU8ML4R",
+            "type": "container",
+            "name": "container_cpu_copy",
+            "width": 150,
+            "width_unit": "px",
+            "height": 130,
+            "height_unit": "px",
+            "x": 5,
+            "x_unit": "px",
+            "y": 10,
+            "y_unit": "px",
+            "align": "LV_ALIGN_TOP_LEFT",
+            "style": {
+              "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                "part": "LV_PART_MAIN",
+                "state": "LV_STATE_DEFAULT",
+                "bg_color": "#63b5f7",
+                "bg_opa": 100,
+                "border_color": "#63b5f7",
+                "border_opa": 255,
+                "border_width": 2,
+                "radius": 0
+              }
+            },
+            "children": [
+              {
+                "id": "MWA94HU8Z69M",
+                "type": "label",
+                "name": "label_cpu_use",
+                "width": 0,
+                "width_unit": "content",
+                "height": 0,
+                "height_unit": "content",
+                "x": -11,
+                "x_unit": "px",
+                "y": 40,
+                "y_unit": "px",
+                "align": "LV_ALIGN_TOP_LEFT",
+                "style": {
+                  "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                    "part": "LV_PART_MAIN",
+                    "state": "LV_STATE_DEFAULT",
+                    "text_color": "#ffffff",
+                    "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                    "text_size": 14
+                  }
+                },
+                "text": "使用率：  80%",
+                "children": [],
+                "lock": false
+              },
+              {
+                "id": "MWA94HU8C5YJ",
+                "type": "label",
+                "name": "label_cpu_temperature",
+                "width": 0,
+                "width_unit": "content",
+                "height": 0,
+                "height_unit": "content",
+                "x": -11,
+                "x_unit": "px",
+                "y": 75,
+                "y_unit": "px",
+                "align": "LV_ALIGN_TOP_LEFT",
+                "style": {
+                  "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                    "part": "LV_PART_MAIN",
+                    "state": "LV_STATE_DEFAULT",
+                    "text_color": "#ffffff",
+                    "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                    "text_size": 14
+                  }
+                },
+                "text": "温度：   50°C",
+                "children": [],
+                "lock": false
+              },
+              {
+                "id": "MWA94HU8EUEU",
+                "type": "label",
+                "name": "label_cpu",
+                "width": 0,
+                "width_unit": "content",
+                "height": 0,
+                "height_unit": "content",
+                "x": -11,
+                "x_unit": "px",
+                "y": -18,
+                "y_unit": "px",
+                "align": "LV_ALIGN_TOP_LEFT",
+                "style": {
+                  "LV_PART_MAIN|LV_STATE_DEFAULT": {
+                    "part": "LV_PART_MAIN",
+                    "state": "LV_STATE_DEFAULT",
+                    "text_color": "#ffffff",
+                    "text_family": "MapleMono-NF-CN-SemiBold.ttf",
+                    "text_size": 30
+                  }
+                },
+                "text": "CPU",
+                "lock": false,
+                "children": []
+              }
+            ],
+            "lock": false
+          }
+        ]
+      }
+    ],
+    "event_list": {
+      "screen_1zfotm2": {
+        "LV_EVENT_GESTURE_LEFT": {
+          "load_screen": {
+            "type": "load_screen",
+            "name": "load_screen",
+            "id": "load_screen",
+            "screen": "screen",
+            "animation": "LV_SCREEN_LOAD_ANIM_MOVE_LEFT",
+            "time": 200,
+            "delay": 0,
+            "is_delete": false
+          }
+        },
+        "LV_EVENT_GESTURE_RIGHT": {
+          "load_screen": {
+            "type": "load_screen",
+            "name": "load_screen",
+            "id": "load_screen",
+            "screen": "screen",
+            "animation": "LV_SCREEN_LOAD_ANIM_MOVE_RIGHT",
+            "time": 200,
+            "delay": 0,
+            "is_delete": false
+          }
+        }
+      },
+      "screen": {
+        "LV_EVENT_GESTURE_LEFT": {
+          "load_screen": {
+            "type": "load_screen",
+            "name": "load_screen",
+            "id": "load_screen",
+            "screen": "screen_1zfotm2",
+            "animation": "LV_SCREEN_LOAD_ANIM_MOVE_LEFT",
+            "time": 200,
+            "delay": 0,
+            "is_delete": false
+          }
+        },
+        "LV_EVENT_GESTURE_RIGHT": {
+          "load_screen": {
+            "type": "load_screen",
+            "name": "load_screen",
+            "id": "load_screen",
+            "screen": "screen_1zfotm2",
+            "animation": "LV_SCREEN_LOAD_ANIM_MOVE_RIGHT",
+            "time": 200,
+            "delay": 0,
+            "is_delete": false
+          }
+        }
+      }
+    },
+    "variable_setting": {
+      "condition": {},
+      "lv_anim_t": {}
+    }
+  }
+}
